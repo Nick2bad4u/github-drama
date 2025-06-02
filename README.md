@@ -37,9 +37,9 @@
 
 ## 📑 Table of Contents
 
-- [About](#about)
-- [Phylogenetic Tree](#phylogenetic-tree)
-- [Drama Archive](#drama-archive)
+- [About](#-about)
+- [Phylogenetic Tree](#-phylogenetic-tree)
+- [Drama Archive](#-drama-archive)
 - [See Also](#see-also)
 - [Contributing](CONTRIBUTING.md)
 
