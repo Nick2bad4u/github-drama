@@ -2,7 +2,7 @@ name: Watch Upstream Commits
 
 on:
   schedule:
-    - cron: '43 1 * * *' # Runs once a day at 1:43 AM UTC
+    - cron: '43 1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,33 +13,59 @@ jobs:
   check-upstream-commit:
     runs-on: ubuntu-latest
     steps:
-
       - name: Get latest commit SHA from neodrama/github-drama
         id: get_commit
         run: |
           LATEST_SHA=$(curl -s https://api.github.com/repos/neodrama/github-drama/commits/main | jq -r .sha)
           echo "latest_sha=$LATEST_SHA" >> $GITHUB_OUTPUT
 
-      - name: Get last seen SHA
+      - name: Get last seen SHA from tracker issue
         id: get_last_sha
-        run: |
-          LAST_SHA=$(gh issue list --search "Upstream SHA:" --state all --json title --jq '.[0].title' | grep -oE '[a-f0-9]{40}' || echo '')
-          echo "last_sha=$LAST_SHA" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: '',
+              per_page: 100
+            });
+            const tracker = issues.find(i => i.title === 'Upstream Commit Tracker');
+            if (tracker) {
+              const sha = tracker.body.trim();
+              core.setOutput('last_sha', sha);
+              core.setOutput('issue_number', tracker.number);
+            } else {
+              core.setOutput('last_sha', '');
+              core.setOutput('issue_number', '');
+            }
 
-      - name: Compare SHAs and open issue if new commit
+      - name: Open issue if new commit
         if: steps.get_commit.outputs.latest_sha != steps.get_last_sha.outputs.last_sha
         uses: actions/github-script@v7
         with:
           script: |
-            const latestSha = process.env.LATEST_SHA = '${{ steps.get_commit.outputs.latest_sha }}';
-            const lastSha = process.env.LAST_SHA = '${{ steps.get_last_sha.outputs.last_sha }}';
-            if (latestSha && latestSha !== lastSha) {
-              github.issues.create({
+            // Open a new issue about the new commit
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Upstream SHA: ${{ steps.get_commit.outputs.latest_sha }}`,
+              body: `A new commit (${{ steps.get_commit.outputs.latest_sha }}) was pushed to neodrama/github-drama.\n\nSee: https://github.com/neodrama/github-drama/commit/${{ steps.get_commit.outputs.latest_sha }}`
+            });
+            // Update or create the tracker issue
+            if ('${{ steps.get_last_sha.outputs.issue_number }}') {
+              await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                title: `Upstream SHA: ${latestSha}`,
-                body: `A new commit (${latestSha}) was pushed to neodrama/github-drama.\n\nSee: https://github.com/neodrama/github-drama/commit/${latestSha}`
+                issue_number: Number('${{ steps.get_last_sha.outputs.issue_number }}'),
+                body: '${{ steps.get_commit.outputs.latest_sha }}'
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: 'Upstream Commit Tracker',
+                body: '${{ steps.get_commit.outputs.latest_sha }}'
               });
             }
