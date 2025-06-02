@@ -51,15 +51,16 @@
 
 ⚠️ **Purpose:** This repository is for educational and historical reference only. It is not intended to harass or target any individual or group.
 
-For contributing guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+For contributing guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md "Project CONTRIBUTING.md").
 
 ---
 
 ## 🌳 Phylogenetic Tree
 
-- **Current repo:** [neodrama/github-drama](https://github.com/neodrama/github-drama)
-- Forked from: [github-drama/github-drama](https://github.com/github-drama/github-drama) ([privatized in Aug 2023](https://github.com/nikolas/github-drama/issues/156#issuecomment-1671123019))
-- Original: [nikolas/github-drama](https://github.com/nikolas/github-drama)
+- Current Repo: [Nick2bad4u/github-drama](https://github.com/Nick2bad4u/github-drama "Github Drama Repo")
+- Forked from: [neodrama/github-drama](https://github.com/neodrama/github-drama "Old NeoDrama Repo")
+- Forked from: [github-drama/github-drama](https://github.com/github-drama/github-drama "Older Drama Repo") ([privatized in Aug 2023](https://github.com/nikolas/github-drama/issues/156#issuecomment-1671123019))
+- Original: [nikolas/github-drama](https://github.com/nikolas/github-drama "Initial Repo")
 
 ---
 
@@ -154,9 +155,10 @@ This is a curated collection of "dramatic" GitHub interactions.
 
 - [bower/bower/issues/1102](https://github.com/bower/bower/issues/1102)
 - [bower/bower/pull/1748](https://github.com/bower/bower/pull/1748)
-  - Bower's first-run prompt asking for anonymous usage reporting disrupted automated workflows.
 
+  - Bower's first-run prompt asking for anonymous usage reporting disrupted automated workflows.
 - [bower/bower/pull/1748](https://github.com/bower/bower/pull/1748)
+
   - Bower's LockFile feature was proposed, aiming to introduce dependency locking.
 
 ### causiq/logary
@@ -170,7 +172,6 @@ This is a curated collection of "dramatic" GitHub interactions.
   - A contributor accused the maintainer of soliciting donations for work done by others.
 - [chrisaljoudi/uBlock/issues/1153](https://github.com/chrisaljoudi/uBlock/issues/1153)
   - Ownership of the repository was transferred to the another user, causing confusion.
-
 
 ### CleverRaven/Cataclysm-DDA
 
@@ -216,9 +217,10 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### docker/docker
 
 - [docker/docker/pull/31075](https://github.com/docker/docker/pull/31075)
-  - Docker switched to a YY.MM versioning scheme, sparking debate over semantic versioning and release cadence.
 
+  - Docker switched to a YY.MM versioning scheme, sparking debate over semantic versioning and release cadence.
 - [docker/docker.github.io/issues/6910](https://github.com/docker/docker.github.io/issues/6910)
+
   - Docker required users to log in to download Docker CE.
 
 ### docker/for-mac
@@ -254,11 +256,13 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### dotnet/roslyn
 
 - [dotnet/roslyn/pull/3507](https://github.com/dotnet/roslyn/pull/3507)
-  - Roslyn removed occurrences of the term "whitelist" from its codebase, replacing it with alternative terminology.
 
+  - Roslyn removed occurrences of the term "whitelist" from its codebase, replacing it with alternative terminology.
 - [dotnet/roslyn/issues/24031](https://github.com/dotnet/roslyn/issues/24031)
+
   - VS2017express replaced tabs with spaces despite user settings.
 - [dotnet/roslyn/issues/68873](https://github.com/dotnet/roslyn/issues/68873)
+
   - Pressing Tab after certain keywords in Visual Studio caused unintended code changes
 
 ### dotnet/runtime
@@ -294,6 +298,11 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### facebookresearch/llama
 
 - [facebookresearch/llama/pull/73](https://github.com/facebookresearch/llama/pull/73) (archive: [1](https://archive.ph/ZvKFb), [2](https://web.archive.org/web/20230617162315/https://github.com/facebookresearch/llama/pull/73), [3](https://ghostarchive.org/archive/eUj93))
+  - Summary:
+    - Meta's LLaMA is a 65-billion-parameter large language model.
+    - The Register reported that "someone on 4Chan posted details on how to obtain the whole model via peer-to-peer file sharing, and eventually instructions on how to download it all were published on GitHub." (source: [The Register](https://www.theregister.com/2023/03/08/meta_llama_ai_leak/), March 8, 2023)
+    - The Guardian reported, "Initially posted to 4Chan, a link to the BitTorrent mirror of LLaMA eventually made it to GitHub" (source: [The Guardian](https://www.theguardian.com/technology/2023/mar/07/techscape-meta-leak-llama-chatgpt-ai-crossroads), March 7, 2023)
+    - A GitHub user opened a pull request containing the magnet link originated from 4chan /g/. (source: [pull/73](https://github.com/facebookresearch/llama/pull/73))
   - Journalistic Media:
     - [The Guardian](https://www.theguardian.com/technology/2023/mar/07/techscape-meta-leak-llama-chatgpt-ai-crossroads) (archive: [1](https://archive.ph/44CDu), [2](https://web.archive.org/web/20230617170443/https://www.theguardian.com/technology/2023/mar/07/techscape-meta-leak-llama-chatgpt-ai-crossroads), [3](https://ghostarchive.org/archive/zb4HJ))
     - [The Register](https://www.theregister.com/2023/03/08/meta_llama_ai_leak/) (archive: [1](https://archive.ph/PMXtD), [2](https://web.archive.org/web/20230617170626/https://www.theregister.com/2023/03/08/meta_llama_ai_leak/), [3](https://ghostarchive.org/archive/IP5dP))
@@ -306,11 +315,6 @@ This is a curated collection of "dramatic" GitHub interactions.
     - [Hacker News page 3](https://news.ycombinator.com/item?id=35007978&p=3) (archive: [1](https://archive.ph/sC12X), [2](https://web.archive.org/web/20230617203024/https://news.ycombinator.com/item?id=35007978&p=3), [3](https://ghostarchive.org/archive/tRiTU))
     - [rDrama](https://rdrama.net/h/slackernews/post/151549) (archive: [1](https://archive.ph/oByTw), [2](https://web.archive.org/web/20230617194604/https://rdrama.net/h/slackernews/post/151549), [3](https://ghostarchive.org/archive/Mh2ao))
     - [Reddit r/MachineLearning](https://old.reddit.com/r/MachineLearning/comments/11h3p2x/d_facebooks_llama_leaks_via_torrent_file_in_pr/) (archive: [1](https://archive.is/VFoTn), [2](https://web.archive.org/web/20230612032838/https://old.reddit.com/r/MachineLearning/comments/11h3p2x/d_facebooks_llama_leaks_via_torrent_file_in_pr/), [3](https://ghostarchive.org/archive/fpseV))
-  - Summary:
-    - Meta's LLaMA is a 65-billion-parameter large language model.
-    - The Register reported that "someone on 4Chan posted details on how to obtain the whole model via peer-to-peer file sharing, and eventually instructions on how to download it all were published on GitHub." (source: [The Register](https://www.theregister.com/2023/03/08/meta_llama_ai_leak/), March 8, 2023)
-    - The Guardian reported, "Initially posted to 4Chan, a link to the BitTorrent mirror of LLaMA eventually made it to GitHub" (source: [The Guardian](https://www.theguardian.com/technology/2023/mar/07/techscape-meta-leak-llama-chatgpt-ai-crossroads), March 7, 2023)
-    - A GitHub user opened a pull request containing the magnet link originated from 4chan /g/. (source: [pull/73](https://github.com/facebookresearch/llama/pull/73))
 
 ### fasterthanlime/42da9378768aebef662dd26dddf04849
 
@@ -361,8 +365,8 @@ This is a curated collection of "dramatic" GitHub interactions.
 
 - [github/dmca/pull/8122](https://github.com/github/dmca/pull/8122) (archive: [1](https://web.archive.org/web/20230129084646/https://github.com/github/dmca/pull/8122), [2](https://archive.ph/l1oh6))
 - [github/dmca/pull/8140](https://github.com/github/dmca/pull/8140) (archive: [1](https://web.archive.org/web/20230129084629/https://github.com/github/dmca/pull/8140), [2](https://archive.ph/GrpDZ))
-  - GitHub processed a DMCA takedown request targeting youtube-dl.
 
+  - GitHub processed a DMCA takedown request targeting youtube-dl.
 - [github/dmca/blob/master/2021/02/2021-02-19-take-two.md](https://github.com/github/dmca/blob/master/2021/02/2021-02-19-take-two.md)
 - [github/dmca/pull/8839](https://github.com/github/dmca/pull/8839) (archive: [1](https://web.archive.org/web/20210320220522/https://github.com/github/dmca/pull/8839))
 - GTAmodding/re3 drama
@@ -372,7 +376,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 - [golang/go/issues/21956](https://github.com/golang/go/issues/21956)
   - A user advocated for moving Go's development workflow entirely to GitHub.
 - [golang/go/issues/33021](https://github.com/golang/go/issues/33021)
- -  A proposal suggested removing the Google logo from the Go website.
+- A proposal suggested removing the Google logo from the Go website.
 
 ### google/googletest
 
@@ -524,14 +528,16 @@ This is a curated collection of "dramatic" GitHub interactions.
 - [mdn/yari/issues/9208](https://github.com/mdn/yari/issues/9208) (archive: [1](https://archive.ph/tWFA7), [2](https://web.archive.org/web/20230724115322/https://github.com/mdn/yari/issues/9208), [3](https://ghostarchive.org/archive/QV17H)) (locked as too heated)
 - [mdn/yari/issues/9230](https://github.com/mdn/yari/issues/9230) (archive: [1](https://archive.ph/oJmxE), [2](https://web.archive.org/web/20230724121110/https://github.com/mdn/yari/issues/9230), [3](https://ghostarchive.org/archive/7kDUB))
   - Summary:
-    - The Register wrote,  
-      > "Mozilla Developer Network, a widely used technical resource for web developers, this week introduced an assistive service called AI Help."  
-      in July 2023.  
-      (source: [The Register](https://www.theregister.com/2023/07/03/mozilla_developer_network_adds_ai/))
-    - A GitHub user, @eevee, opened an issue and wrote,  
-      > "MDN has generated a convincing-sounding lie and there is no apparent process for correcting it"  
-      in July 2023.  
-      (source: [mdn/yari/issues/9208](https://github.com/mdn/yari/issues/9208))
+    - The Register wrote,
+      > "Mozilla Developer Network, a widely used technical resource for web developers, this week introduced an assistive service called AI Help."
+      > in July 2023.
+      > (source: [The Register](https://www.theregister.com/2023/07/03/mozilla_developer_network_adds_ai/))
+      >
+    - A GitHub user, @eevee, opened an issue and wrote,
+      > "MDN has generated a convincing-sounding lie and there is no apparent process for correcting it"
+      > in July 2023.
+      > (source: [mdn/yari/issues/9208](https://github.com/mdn/yari/issues/9208))
+      >
   - Journalistic Media:
     - [The Register (2023/07/03)](https://www.theregister.com/2023/07/03/mozilla_developer_network_adds_ai/) (archive: [1](https://archive.ph/74xPE), [2](https://web.archive.org/web/20230724120105/https://www.theregister.com/2023/07/03/mozilla_developer_network_adds_ai), [3](https://ghostarchive.org/archive/NSRKi))
     - [The Register (2023/07/06)](https://www.theregister.com/2023/07/06/mozilla_ai_explain_shift/) (archive: [1](https://archive.ph/Cbfl8), [2](https://web.archive.org/web/20230724120106/https://www.theregister.com/2023/07/06/mozilla_ai_explain_shift), [3](https://ghostarchive.org/archive/P9YAB))
@@ -557,6 +563,7 @@ This is a curated collection of "dramatic" GitHub interactions.
   - This pull request introduced intersection types to TypeScript. While the technical discussion was extensive, it also became contentious. Several users expressed confusion and frustration over the conceptual model and terminology, especially those coming from statically typed language backgrounds.
 
 ### Microsoft/vscode
+
 - [Microsoft/vscode/issues/32405](https://github.com/Microsoft/vscode/issues/32405)
 - [Microsoft/vscode/issues/54261](https://github.com/Microsoft/vscode/issues/54261)
 - [Microsoft/vscode/issues/191229](https://github.com/Microsoft/vscode/issues/191229)
@@ -611,9 +618,9 @@ This is a curated collection of "dramatic" GitHub interactions.
 
 ### NanoAdblocker/NanoCore
 
-  - [NanoAdblocker/NanoCore/issues/362](https://github.com/NanoAdblocker/NanoCore/issues/362)
-  - Journalistic Media: [Reddit.com](https://www.reddit.com/r/HobbyDrama/comments/jo9wxn/open_source_development_the_fall_of_nano_defender/)
-  - Ownership transfer drama
+- [NanoAdblocker/NanoCore/issues/362](https://github.com/NanoAdblocker/NanoCore/issues/362)
+- Journalistic Media: [Reddit.com](https://www.reddit.com/r/HobbyDrama/comments/jo9wxn/open_source_development_the_fall_of_nano_defender/)
+- Ownership transfer drama
 
 ### NationalSecurityAgency/Ghidra
 
@@ -999,8 +1006,8 @@ This is a curated collection of "dramatic" GitHub interactions.
 
 - [tenacityteam/tenacity/issues/99](https://github.com/tenacityteam/tenacity/issues/99) (archive: [1](https://web.archive.org/web/20221012221409/github.com/tenacityteam/tenacity/issues/99), [2](https://archive.is/GhhKi))
   - Tenacity, an Audacity fork, is an easy-to-use multi-track audio editor and recorder. A GitHub user named Cookiengineer was the leader and one of the developers of Tenacity.
-  - Some 4chan users doxxed and attempted to murder Cookiengineer in a coordinated attack campaign in July 2021. 
-  - Journalistic Media: 
+  - Some 4chan users doxxed and attempted to murder Cookiengineer in a coordinated attack campaign in July 2021.
+  - Journalistic Media:
     - [TheRegister.com](https://www.theregister.com/2021/07/07/tenacity_maintainer_quits_4chan_harassment)
 - [tenacityteam/tenacity/issues/99](https://web.archive.org/web/20221012221409/github.com/tenacityteam/tenacity/issues/99)
   - Cookiengineer quit after the harassment and stabbing from the 4chan users.
@@ -1017,9 +1024,9 @@ This is a curated collection of "dramatic" GitHub interactions.
 
 ### Tj-Actions/Changed-Files
 
-  - [Tj-Actions/Changed-Files/issues/2464](https://github.com/tj-actions/changed-files/issues/2464)
-  - Journalistic Media: [TheRegister.com](https://www.theregister.com/2025/03/17/supply_chain_attack_github/)
-  - Github Actions was leaking secrets from 23,000 projects due to a vulnerability.
+- [Tj-Actions/Changed-Files/issues/2464](https://github.com/tj-actions/changed-files/issues/2464)
+- Journalistic Media: [TheRegister.com](https://www.theregister.com/2025/03/17/supply_chain_attack_github/)
+- Github Actions was leaking secrets from 23,000 projects due to a vulnerability.
 
 ### Todogroup/Opencodeofconduct
 
@@ -1099,6 +1106,7 @@ This is a curated collection of "dramatic" GitHub interactions.
   - A heated debate erupts over Chrome's intervention to block synchronous XHR requests during page dismissal (e.g., in unload/beforeunload events).
 
 ### winampdesktop/winamp
+
 - [WinampDesktop/winamp/issues/56](https://web.archive.org/web/20241005081155/https://github.com/WinampDesktop/winamp/issues/56)
 - [/WinampDesktop/winamp/issues/6](https://web.archive.org/web/20241008105942/https://github.com/WinampDesktop/winamp/issues/6)
   - Summary:
@@ -1146,14 +1154,14 @@ This is a curated collection of "dramatic" GitHub interactions.
 
 - [zloirock](https://github.com/zloirock), the maintainer of the popular core-js library, added a code that printed a promotional message into the postinstall script of his NPM package ([issues/548](https://github.com/zloirock/core-js/issues/548)).
 - In November 2019, @zloirock lost an appeal to overturn an 18-month prison sentence imposed for causing a lethal road accident ([The Register (2020)](https://www.theregister.com/2020/03/26/corejs_maintainer_jailed_code_release)).
-- In February 2023, @zloirock posted a 10,000-word ["So, what's next?"](https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md) article about open source sustainability and maintainer burnout, which was linked in a GitHub issue and elicited hundreds of comments and thousands of reactions ([issues/1179](https://github.com/zloirock/core-js/issues/1179)).
-
-- ["So, what's next?" article:](https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md) (archive: [1(https://archive.ph/miwZk), [2](https://web.archive.org/web/20230221182146/https://github.com/zloirock/core-js/blob/master/docs2023-02-14-so-whats-next.md), [3](https://ghostarchive.org/archive/WZ2rW))
+- In February 2023, @zloirock posted a 10,000-word [&#34;So, what&#39;s next?&#34;](https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md) article about open source sustainability and maintainer burnout, which was linked in a GitHub issue and elicited hundreds of comments and thousands of reactions ([issues/1179](https://github.com/zloirock/core-js/issues/1179)).
+- [&#34;So, what&#39;s next?&#34; article:](https://github.com/zloirock/core-js/blob/master/docs/2023-02-14-so-whats-next.md) (archive: [1(https://archive.ph/miwZk), [2](https://web.archive.org/web/20230221182146/https://github.com/zloirock/core-js/blob/master/docs2023-02-14-so-whats-next.md), [3](https://ghostarchive.org/archive/WZ2rW))
 - [zloirock/core-js/issues/548](https://github.com/zloirock/core-js/issues/548) (archive: [1](https://archive.ph/Tz1Ey), [2](https:/web.archive.org/web/20230221163439/https://github.com/zloirock/core-js/issues/548), [3](https://ghostarchive.org/archive/LRf1H))
 - [zloirock/core-js/issues/635](https://github.com/zloirock/core-js/issues/635) (archive: [1](https://archive.ph/P308P), [2](https:/web.archive.org/web/20230221170306/https://github.com/zloirock/core-js/issues/635), [3](https://ghostarchive.org/archive/pOYmt))
 - [zloirock/core-js/issues/708](https://github.com/zloirock/core-js/issues/708) (archive: [1](https://archive.ph/xxECm), [2](https:/web.archive.org/web/20230221163326/https://github.com/zloirock/core-js/issues/708), [3](https://ghostarchive.org/archive/TMfTm))
 - [zloirock/core-js/issues/767](https://github.com/zloirock/core-js/issues/767) (archive: [1](https://archive.ph/5dx2U), [2](https:/web.archive.org/web/20230221163506/https://github.com/zloirock/core-js/issues/767), [3](https://ghostarchive.org/archive/9f9Gg))
 - [zloirock/core-js/issues/1179](https://github.com/zloirock/core-js/issues/1179) (archive: [1](https://archive.ph/k3x02), [2](https://web.archive.org/web/20230221162909/https://github.com/zloirock/core-js/issues/1179), [3](https://ghostarchive.org/archive/RkxU2))
+
   - Summary:
     - The core-js project and its maintainer, zloirock, have been at the center of multiple controversies, including promotional postinstall scripts, legal troubles, and public debates about open source sustainability and maintainer burnout. The project's issues and related media coverage have sparked widespread discussion in the open source community.
   - Journalistic Media:
@@ -1165,6 +1173,7 @@ This is a curated collection of "dramatic" GitHub interactions.
     - [4chan /g/ 91675671](https://boards.4channel.org/g/thread/91675671) (archive: [1](https://archive.ph/LLB7X), [2](https://web.archive.org/web/20230221165452/https://boards.4channel.org/g/thread/91675671), [3](https://ghostarchive.org/archive/LXlVG))
     - [DesuArchive 91675671](https://desuarchive.org/g/thread/91675671/) (archive: [1](https://archive.ph/odBJZ), [2](https://web.archive.org/web/20230221165715/https://desuarchive.org/g/thread/91675671), [3](https://ghostarchive.org/archive/P9hue))
     - [Kiwifarms](https://kiwifarms.net/threads/open-source-software-community.38130/post-5930885) (archive: [1](https://archive.ph/guOqI#selection-4265.0-4265.12), [2](https://web.archive.org/web/20230221164800/https://kiwifarms.net/threads/open-source-software-community.38130/post-5930885), [3](https://ghostarchive.org/archive/bBaY2))
+
 ---
 
 ## See also
