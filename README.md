@@ -6,29 +6,29 @@
   <p align="center">
     <b>Curated Collection of Notorious GitHub Drama & Controversies</b>
     <br/>
-    <a href="https://github.com/neodrama/github-drama/issues/2">📰 Subscribe for Updates</a>
+    <a href="https://github.com/nick2bad4u/github-drama/issues/2">📰 Subscribe for Updates</a>
     ·
     <a href="CONTRIBUTING.md">🤝 Contribute</a>
   </p>
 </p>
 
 <p align="center">
-  <a href="https://github.com/neodrama/github-drama/pulls">
+  <a href="https://github.com/nick2bad4u/github-drama/pulls">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
   </a>
-  <a href="https://github.com/neodrama/github-drama/blob/master/CONTRIBUTING.md">
+  <a href="https://github.com/nick2bad4u/github-drama/blob/master/CONTRIBUTING.md">
     <img alt="License" src="https://img.shields.io/badge/Contributions-Accepted-darkgreen?style=flat-square">
   </a>
-  <a href="https://github.com/neodrama/github-drama/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/neodrama/github-drama?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/stargazers">
+    <img alt="Stars" src="https://img.shields.io/github/stars/nick2bad4u/github-drama?style=flat-square">
   </a>
-  <a href="https://github.com/neodrama/github-drama/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/neodrama/github-drama?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/nick2bad4u/github-drama?style=flat-square">
   </a>
-  <a href="https://github.com/neodrama/github-drama/commits">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/neodrama/github-drama?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/commits">
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/nick2bad4u/github-drama?style=flat-square">
   </a>
-  <a href="https://github.com/neodrama/github-drama">
+  <a href="https://github.com/nick2bad4u/github-drama">
     <img alt="Views" src="https://views.igorkowalczyk.dev/api/badge/github-drama?style=flat">
   </a>
 </p>
