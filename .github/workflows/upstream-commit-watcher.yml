@@ -42,7 +42,7 @@ jobs:
             }
 
       - name: Open issue if new commit
-        if: ${{ steps.get_commit.outputs.latest_sha }} != ${{ steps.get_last_sha.outputs.last_sha }}
+        if: ${{ steps.get_commit.outputs.latest_sha != '' && steps.get_commit.outputs.latest_sha != 'null' && steps.get_commit.outputs.latest_sha != steps.get_last_sha.outputs.last_sha }}
         uses: actions/github-script@v7
         env:
           LATEST_SHA: ${{ steps.get_commit.outputs.latest_sha }}
@@ -54,6 +54,10 @@ jobs:
             const latestSha = process.env.LATEST_SHA;
             const lastSha = process.env.LAST_SHA;
             const issueNumber = process.env.ISSUE_NUMBER;
+            if (!latestSha || latestSha === 'null') {
+              console.log('No valid latest SHA found, skipping issue creation.');
+              return;
+            }
             // Open a new issue about the new commit
             await github.rest.issues.create({
               owner: context.repo.owner,
@@ -62,18 +66,23 @@ jobs:
               body: `A new commit (${latestSha}) was pushed to neodrama/github-drama.\n\nSee: https://github.com/neodrama/github-drama/commit/${latestSha}`
             });
             // Update or create the tracker issue
-            if (issueNumber && issueNumber !== 'undefined' && issueNumber !== '') {
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: Number(issueNumber),
-                body: latestSha
-              });
+            // Only update or create the tracker issue if the SHA is valid
+            if (latestSha && latestSha !== 'null' && latestSha !== '') {
+              if (issueNumber && issueNumber !== 'undefined' && issueNumber !== '') {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: Number(issueNumber),
+                  body: latestSha
+                });
+              } else {
+                await github.rest.issues.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: 'Upstream Commit Tracker',
+                  body: latestSha
+                });
+              }
             } else {
-              await github.rest.issues.create({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                title: 'Upstream Commit Tracker',
-                body: latestSha
-              });
+              console.log('Not updating tracker issue because latest SHA is invalid.');
             }
