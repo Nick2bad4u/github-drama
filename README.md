@@ -1,35 +1,35 @@
 <!-- PROJECT LOGO & BADGES -->
 
 <p align="center">
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Drama Logo" width="80"/>
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark logo for GitHub Drama project" width="80" title="GitHub Drama Logo"/>
   <h1 align="center">github-drama <sup>🌩️</sup></h1>
   <p align="center">
     <b>Curated Collection of Notorious GitHub Drama & Controversies</b>
     <br/>
-    <a href="https://github.com/nick2bad4u/github-drama/issues/2">📰 Subscribe for Updates</a>
+    <a href="https://github.com/nick2bad4u/github-drama/issues/2" title="Subscribe to GitHub Drama updates">📰 Subscribe for Updates</a>
     ·
-    <a href="CONTRIBUTING.md">🤝 Contribute</a>
+    <a href="CONTRIBUTING.md" title="View contributing guidelines">🤝 Contribute</a>
   </p>
 </p>
 
 <p align="center">
-  <a href="https://github.com/nick2bad4u/github-drama/pulls">
-    <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/pulls" title="View or submit pull requests">
+    <img alt="Badge: PRs Welcome (green, flat-square style)" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" title="PRs Welcome">
   </a>
-  <a href="https://github.com/nick2bad4u/github-drama/blob/master/CONTRIBUTING.md">
-    <img alt="License" src="https://img.shields.io/badge/Contributions-Accepted-darkgreen?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/blob/master/CONTRIBUTING.md" title="Read the contributing guidelines">
+    <img alt="Badge: Contributions Accepted (dark green, flat-square style)" src="https://img.shields.io/badge/Contributions-Accepted-darkgreen?style=flat-square" title="Contributions Accepted">
   </a>
-  <a href="https://github.com/nick2bad4u/github-drama/stargazers">
-    <img alt="Stars" src="https://img.shields.io/github/stars/nick2bad4u/github-drama?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/stargazers" title="See who starred this repo">
+    <img alt="Badge: GitHub Stars (dynamic count, flat-square style)" src="https://img.shields.io/github/stars/nick2bad4u/github-drama?style=flat-square" title="GitHub Stars">
   </a>
-  <a href="https://github.com/nick2bad4u/github-drama/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/nick2bad4u/github-drama?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/issues" title="View open issues">
+    <img alt="Badge: GitHub Issues (dynamic count, flat-square style)" src="https://img.shields.io/github/issues/nick2bad4u/github-drama?style=flat-square" title="GitHub Issues">
   </a>
-  <a href="https://github.com/nick2bad4u/github-drama/commits">
-    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/nick2bad4u/github-drama?style=flat-square">
+  <a href="https://github.com/nick2bad4u/github-drama/commits" title="View recent commits">
+    <img alt="Badge: Last Commit (dynamic date, flat-square style)" src="https://img.shields.io/github/last-commit/nick2bad4u/github-drama?style=flat-square" title="Last Commit">
   </a>
-  <a href="https://github.com/nick2bad4u/github-drama">
-    <img alt="Views" src="https://views.igorkowalczyk.dev/api/badge/github-drama?style=flat">
+  <a href="https://github.com/nick2bad4u/github-drama" title="GitHub Drama main repository">
+    <img alt="Badge: Repository Views (dynamic count, flat style)" src="https://views.igorkowalczyk.dev/api/badge/github-drama?style=flat" title="Repository Views">
   </a>
 </p>
 
@@ -37,11 +37,11 @@
 
 ## 📑 Table of Contents
 
-- [About](#-about)
-- [Phylogenetic Tree](#-phylogenetic-tree)
-- [Drama Archive](#-drama-archive)
-- [See Also](#see-also)
-- [Contributing](CONTRIBUTING.md)
+- [About](#-about "Jump to About section")
+- [Phylogenetic Tree](#-phylogenetic-tree "Jump to Phylogenetic Tree section")
+- [Drama Archive](#-drama-archive "Jump to Drama Archive section")
+- [See Also](#see-also "Jump to See Also section")
+- [Contributing](CONTRIBUTING.md "View contributing guidelines")
 
 ---
 
@@ -57,10 +57,10 @@ For contributing guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md "Project CONT
 
 ## 🌳 Phylogenetic Tree
 
-- Current Repo: [Nick2bad4u/github-drama](https://github.com/Nick2bad4u/github-drama "Github Drama Repo")
-- Forked from: [neodrama/github-drama](https://github.com/neodrama/github-drama "Old NeoDrama Repo")
-- Forked from: [github-drama/github-drama](https://github.com/github-drama/github-drama "Older Drama Repo") ([privatized in Aug 2023](https://github.com/nikolas/github-drama/issues/156#issuecomment-1671123019))
-- Original: [nikolas/github-drama](https://github.com/nikolas/github-drama "Initial Repo")
+- Current Repo: [Nick2bad4u/github-drama](https://github.com/Nick2bad4u/github-drama "Github Drama Repo - View on GitHub")
+- Forked from: [neodrama/github-drama](https://github.com/neodrama/github-drama "Old NeoDrama Repo - View on GitHub")
+- Forked from: [github-drama/github-drama](https://github.com/github-drama/github-drama "Older Drama Repo - View on GitHub") ([privatized in Aug 2023](https://github.com/nikolas/github-drama/issues/156#issuecomment-1671123019 "Privatization discussion"))
+- Original: [nikolas/github-drama](https://github.com/nikolas/github-drama "Initial Repo - View on GitHub")
 
 ---
 
@@ -134,7 +134,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### AUTOMATIC1111/stable-diffusion-webui
 
 - [AUTOMATIC1111/stable-diffusion-webui/issues/6359](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/6359) ([archive.vn](https://archive.vn/Whu1Z)) ([archive.org](https://web.archive.org/web/20230105161436/https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/6359))
-  - ***⚠️ Sensitive Topic***
+  - **_⚠️ Sensitive Topic_**
 
 ### ayojs/ayo
 
@@ -154,11 +154,8 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### bower/bower
 
 - [bower/bower/issues/1102](https://github.com/bower/bower/issues/1102)
-- [bower/bower/pull/1748](https://github.com/bower/bower/pull/1748)
-
   - Bower's first-run prompt asking for anonymous usage reporting disrupted automated workflows.
 - [bower/bower/pull/1748](https://github.com/bower/bower/pull/1748)
-
   - Bower's LockFile feature was proposed, aiming to introduce dependency locking.
 
 ### causiq/logary
@@ -176,7 +173,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### CleverRaven/Cataclysm-DDA
 
 - [CleverRaven/Cataclysm-DDA/pull/51079](https://github.com/CleverRaven/Cataclysm-DDA/pull/51079)
-  - ***⚠️ Sensitive Topic***
+  - **_⚠️ Sensitive Topic_**
 
 ### cloudflare/wildebeest
 
@@ -202,7 +199,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### dear-github/dear-github
 
 - [dear-github/dear-github/issues/107](https://github.com/dear-github/dear-github/issues/107)
-  - ***⚠️ Sensitive Topic***
+  - **_⚠️ Sensitive Topic_**
 
 ### Delgan/loguru
 
@@ -219,6 +216,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 - [docker/docker/pull/31075](https://github.com/docker/docker/pull/31075)
 
   - Docker switched to a YY.MM versioning scheme, sparking debate over semantic versioning and release cadence.
+
 - [docker/docker.github.io/issues/6910](https://github.com/docker/docker.github.io/issues/6910)
 
   - Docker required users to log in to download Docker CE.
@@ -258,9 +256,11 @@ This is a curated collection of "dramatic" GitHub interactions.
 - [dotnet/roslyn/pull/3507](https://github.com/dotnet/roslyn/pull/3507)
 
   - Roslyn removed occurrences of the term "whitelist" from its codebase, replacing it with alternative terminology.
+
 - [dotnet/roslyn/issues/24031](https://github.com/dotnet/roslyn/issues/24031)
 
   - VS2017express replaced tabs with spaces despite user settings.
+
 - [dotnet/roslyn/issues/68873](https://github.com/dotnet/roslyn/issues/68873)
 
   - Pressing Tab after certain keywords in Visual Studio caused unintended code changes
@@ -367,6 +367,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 - [github/dmca/pull/8140](https://github.com/github/dmca/pull/8140) (archive: [1](https://web.archive.org/web/20230129084629/https://github.com/github/dmca/pull/8140), [2](https://archive.ph/GrpDZ))
 
   - GitHub processed a DMCA takedown request targeting youtube-dl.
+
 - [github/dmca/blob/master/2021/02/2021-02-19-take-two.md](https://github.com/github/dmca/blob/master/2021/02/2021-02-19-take-two.md)
 - [github/dmca/pull/8839](https://github.com/github/dmca/pull/8839) (archive: [1](https://web.archive.org/web/20210320220522/https://github.com/github/dmca/pull/8839))
 - GTAmodding/re3 drama
@@ -443,7 +444,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### joyent/libuv
 
 - [joyent/libuv/pull/1015](https://github.com/joyent/libuv/pull/1015)
-  - ***⚠️ Sensitive Topic***
+  - **_⚠️ Sensitive Topic_**
 
 ### jquery/download.jqueryui.com
 
@@ -532,12 +533,10 @@ This is a curated collection of "dramatic" GitHub interactions.
       > "Mozilla Developer Network, a widely used technical resource for web developers, this week introduced an assistive service called AI Help."
       > in July 2023.
       > (source: [The Register](https://www.theregister.com/2023/07/03/mozilla_developer_network_adds_ai/))
-      >
     - A GitHub user, @eevee, opened an issue and wrote,
       > "MDN has generated a convincing-sounding lie and there is no apparent process for correcting it"
       > in July 2023.
       > (source: [mdn/yari/issues/9208](https://github.com/mdn/yari/issues/9208))
-      >
   - Journalistic Media:
     - [The Register (2023/07/03)](https://www.theregister.com/2023/07/03/mozilla_developer_network_adds_ai/) (archive: [1](https://archive.ph/74xPE), [2](https://web.archive.org/web/20230724120105/https://www.theregister.com/2023/07/03/mozilla_developer_network_adds_ai), [3](https://ghostarchive.org/archive/NSRKi))
     - [The Register (2023/07/06)](https://www.theregister.com/2023/07/06/mozilla_ai_explain_shift/) (archive: [1](https://archive.ph/Cbfl8), [2](https://web.archive.org/web/20230724120106/https://www.theregister.com/2023/07/06/mozilla_ai_explain_shift), [3](https://ghostarchive.org/archive/P9YAB))
@@ -758,7 +757,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 - [Palantir/Tslint/issues/4132](https://github.com/palantir/tslint/issues/4132)
 - [Palantir/Tslint/issues/4140](https://github.com/palantir/tslint/issues/4140)
 - [Palantir/Tslint/issues/4141](https://github.com/palantir/tslint/issues/4141)
-  - ***⚠️ Sensitive Topic***
+  - **_⚠️ Sensitive Topic_**
 
 ### P-H-C/Phc-Winner-Argon2
 
@@ -930,7 +929,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 ### SerenityOS/Serenity
 
 - [SerenityOS/serenity/pull/6814](https://github.com/SerenityOS/serenity/pull/6814)
-  - ***⚠️ Sensitive Topic***
+  - **_⚠️ Sensitive Topic_**
 
 ### Signalapp/Signal-Android
 
@@ -1058,6 +1057,7 @@ This is a curated collection of "dramatic" GitHub interactions.
 - [ValveSoftware/Source-1-Games/issues/2475](https://github.com/ValveSoftware/Source-1-Games/issues/2475)
 
   - A user discovers that having "catbot" in their Linux username triggers an automatic VAC ban in Team Fortress 2.
+
 - [ValveSoftware/steam-for-linux/issues/3671](https://github.com/ValveSoftware/steam-for-linux/issues/3671)
 
   - A user moves their Steam folder and symlinks it, only to have Steam recursively delete all files owned by their user—including backups—after launch.
