@@ -42,30 +42,38 @@ jobs:
             }
 
       - name: Open issue if new commit
-        if: steps.get_commit.outputs.latest_sha != steps.get_last_sha.outputs.last_sha
+        if: ${{ steps.get_commit.outputs.latest_sha }} != ${{ steps.get_last_sha.outputs.last_sha }}
         uses: actions/github-script@v7
+        env:
+          LATEST_SHA: ${{ steps.get_commit.outputs.latest_sha }}
+          LAST_SHA: ${{ steps.get_last_sha.outputs.last_sha }}
+          ISSUE_NUMBER: ${{ steps.get_last_sha.outputs.issue_number }}
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
+            const latestSha = process.env.LATEST_SHA;
+            const lastSha = process.env.LAST_SHA;
+            const issueNumber = process.env.ISSUE_NUMBER;
             // Open a new issue about the new commit
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `Upstream SHA: ${{ steps.get_commit.outputs.latest_sha }}`,
-              body: `A new commit (${{ steps.get_commit.outputs.latest_sha }}) was pushed to neodrama/github-drama.\n\nSee: https://github.com/neodrama/github-drama/commit/${{ steps.get_commit.outputs.latest_sha }}`
+              title: `Upstream SHA: ${latestSha}`,
+              body: `A new commit (${latestSha}) was pushed to neodrama/github-drama.\n\nSee: https://github.com/neodrama/github-drama/commit/${latestSha}`
             });
             // Update or create the tracker issue
-            if ('${{ steps.get_last_sha.outputs.issue_number }}') {
+            if (issueNumber && issueNumber !== 'undefined' && issueNumber !== '') {
               await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: Number('${{ steps.get_last_sha.outputs.issue_number }}'),
-                body: '${{ steps.get_commit.outputs.latest_sha }}'
+                issue_number: Number(issueNumber),
+                body: latestSha
               });
             } else {
               await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 title: 'Upstream Commit Tracker',
-                body: '${{ steps.get_commit.outputs.latest_sha }}'
+                body: latestSha
               });
             }
