@@ -48,6 +48,7 @@
   </a>
   <a href="https://nick2bad4u.github.io/github-drama/" title="GitHub Pages Status">
     <img alt="Badge: GitHub Pages Status (dynamic, flat-square style)" src="https://img.shields.io/website?url=https%3A%2F%2Fnick2bad4u.github.io%2Fgithub-drama%2F&up_message=Online&down_message=Offline&style=flat-square&logo=github&label=Github%20Pages&cacheSeconds=6000&link=https%3A%2F%2Fnick2bad4u.github.io%2Fgithub-drama%2F" title="GitHub Pages Status">
+  </a>
 </p>
 
 ---
