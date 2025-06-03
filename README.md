@@ -32,7 +32,7 @@
     <img alt="Badge: Last Commit (dynamic date, flat-square style)" src="https://img.shields.io/github/last-commit/nick2bad4u/github-drama?style=flat-square&logo=commonworkflowlanguage" title="Last Commit">
   </a>
   <a href="https://github.com/nick2bad4u/github-drama" title="GitHub Drama main repository">
-    <img alt="Badge: Repository Views (dynamic count, flat style)" src="https://views.igorkowalczyk.dev/api/badge/github-drama?style=flat" title="Repository Views">
+    <img alt="Badge: Repository Views (dynamic count, flat style)" src="https://views.igorkowalczyk.dev/api/badge/Github-Drama-Modern?style=flat" title="Repository Views">
   </a>
   <a href="https://github.com/Nick2bad4u/github-drama/blob/main/LICENSE.md" title="View project license">
     <img alt="Badge: License (UnLicense, flat-square style)" src="https://img.shields.io/github/license/nick2bad4u/github-drama?style=flat-square&logo=unlicense" title="License: UnLicense">
