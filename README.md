@@ -6,7 +6,7 @@
   <p align="center">
     <b>Curated Collection of Notorious GitHub Drama & Controversies</b>
     <br/>
-    <a href="https://github.com/nick2bad4u/github-drama/issues/2" title="Subscribe to GitHub Drama updates">📰 Subscribe for Updates</a>
+    <a href="https://github.com/nick2bad4u/github-drama/issues/1" title="Subscribe to GitHub Drama updates">📰 Subscribe for Updates</a>
     ·
     <a href="CONTRIBUTING.md" title="View contributing guidelines">🤝 Contribute</a>
   </p>
