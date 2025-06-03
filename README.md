@@ -14,22 +14,37 @@
 
 <p align="center">
   <a href="https://github.com/nick2bad4u/github-drama/pulls" title="View or submit pull requests">
-    <img alt="Badge: PRs Welcome (green, flat-square style)" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" title="PRs Welcome">
+    <img alt="Badge: PRs Welcome (green, flat-square style)" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&logo=github" title="PRs Welcome">
   </a>
   <a href="https://github.com/nick2bad4u/github-drama/blob/master/CONTRIBUTING.md" title="Read the contributing guidelines">
-    <img alt="Badge: Contributions Accepted (dark green, flat-square style)" src="https://img.shields.io/badge/Contributions-Accepted-darkgreen?style=flat-square" title="Contributions Accepted">
+    <img alt="Badge: Contributions Accepted (dark green, flat-square style)" src="https://img.shields.io/badge/Contributions-Accepted-darkgreen?style=flat-square&logo=contributorcovenant" title="Contributions Accepted">
+  </a>
+  <a href="https://github.com/nick2bad4u/github-drama/graphs/contributors" title="View project contributors">
+    <img alt="Badge: Contributors (dynamic count, flat-square style)" src="https://img.shields.io/github/contributors/nick2bad4u/github-drama?style=flat-square&logo=contributorcovenant" title="Contributors">
   </a>
   <a href="https://github.com/nick2bad4u/github-drama/stargazers" title="See who starred this repo">
-    <img alt="Badge: GitHub Stars (dynamic count, flat-square style)" src="https://img.shields.io/github/stars/nick2bad4u/github-drama?style=flat-square" title="GitHub Stars">
+    <img alt="Badge: GitHub Stars (dynamic count, flat-square style)" src="https://img.shields.io/github/stars/nick2bad4u/github-drama?style=flat-square&logo=polestar" title="GitHub Stars">
   </a>
   <a href="https://github.com/nick2bad4u/github-drama/issues" title="View open issues">
-    <img alt="Badge: GitHub Issues (dynamic count, flat-square style)" src="https://img.shields.io/github/issues/nick2bad4u/github-drama?style=flat-square" title="GitHub Issues">
+    <img alt="Badge: GitHub Issues (dynamic count, flat-square style)" src="https://img.shields.io/github/issues/nick2bad4u/github-drama?style=flat-square&logo=wwise" title="GitHub Issues">
   </a>
   <a href="https://github.com/nick2bad4u/github-drama/commits" title="View recent commits">
-    <img alt="Badge: Last Commit (dynamic date, flat-square style)" src="https://img.shields.io/github/last-commit/nick2bad4u/github-drama?style=flat-square" title="Last Commit">
+    <img alt="Badge: Last Commit (dynamic date, flat-square style)" src="https://img.shields.io/github/last-commit/nick2bad4u/github-drama?style=flat-square&logo=commonworkflowlanguage" title="Last Commit">
   </a>
   <a href="https://github.com/nick2bad4u/github-drama" title="GitHub Drama main repository">
     <img alt="Badge: Repository Views (dynamic count, flat style)" src="https://views.igorkowalczyk.dev/api/badge/github-drama?style=flat" title="Repository Views">
+  </a>
+  <a href="https://github.com/nick2bad4u/github-drama/blob/master/LICENSE" title="View project license">
+    <img alt="Badge: License (UnLicense, flat-square style)" src="https://img.shields.io/github/license/nick2bad4u/github-drama?style=flat-square&logo=unlicense" title="License: UnLicense">
+  </a>
+  <a href="https://img.shields.io/badge/code%20style-prettier-ff69b4.svg" title="Code Style: Prettier">
+    <img alt="Badge: Code Style (Prettier, pink, flat-square style)" src="https://img.shields.io/badge/code%20style-prettier-ff69b4.svg" title="Code Style: Prettier">
+  </a>
+  <a href="https://img.shields.io/badge/made%20with-Markdown-blue" title="Made with Markdown">
+    <img alt="Badge: Made with (Markdown, blue, flat-square style)" src="https://img.shields.io/badge/made%20with-Markdown-blue" title="Made with Markdown">
+  </a>
+  <a href="https://img.shields.io/github/forks/nick2bad4u/github-drama?style=social" title="Forks">
+    <img alt="Badge: Forks (dynamic count, flat-square style)" src="https://img.shields.io/github/forks/nick2bad4u/github-drama?style=flat-square&logo=greasyfork" title="Forks">
   </a>
 </p>
 
