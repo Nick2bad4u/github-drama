@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Mark logo for GitHub Drama project" width="80" title="GitHub Drama Logo"/>
-  <h1 align="center">github-drama <sup>🌩️</sup></h1>
+  <h1 align="center">Github Drama <sup>🌩️</sup></h1>
   <p align="center">
     <b>Curated Collection of Notorious GitHub Drama & Controversies</b>
     <br/>
@@ -34,18 +34,20 @@
   <a href="https://github.com/nick2bad4u/github-drama" title="GitHub Drama main repository">
     <img alt="Badge: Repository Views (dynamic count, flat style)" src="https://views.igorkowalczyk.dev/api/badge/github-drama?style=flat" title="Repository Views">
   </a>
-  <a href="https://github.com/nick2bad4u/github-drama/blob/master/LICENSE" title="View project license">
+  <a href="https://github.com/Nick2bad4u/github-drama/blob/main/LICENSE.md" title="View project license">
     <img alt="Badge: License (UnLicense, flat-square style)" src="https://img.shields.io/github/license/nick2bad4u/github-drama?style=flat-square&logo=unlicense" title="License: UnLicense">
   </a>
-  <a href="https://img.shields.io/badge/code%20style-prettier-ff69b4.svg" title="Code Style: Prettier">
+  <a href="https://prettier.io/" title="Code Style: Prettier">
     <img alt="Badge: Code Style (Prettier, pink, flat-square style)" src="https://img.shields.io/badge/code%20style-prettier-ff69b4.svg" title="Code Style: Prettier">
   </a>
-  <a href="https://img.shields.io/badge/made%20with-Markdown-blue" title="Made with Markdown">
+  <a href="https://github.com/Nick2bad4u/github-drama/blob/main/README.md" title="Made with Markdown">
     <img alt="Badge: Made with (Markdown, blue, flat-square style)" src="https://img.shields.io/badge/made%20with-Markdown-blue" title="Made with Markdown">
   </a>
-  <a href="https://img.shields.io/github/forks/nick2bad4u/github-drama?style=social" title="Forks">
+  <a href="https://github.com/Nick2bad4u/github-drama/forks" title="Forks">
     <img alt="Badge: Forks (dynamic count, flat-square style)" src="https://img.shields.io/github/forks/nick2bad4u/github-drama?style=flat-square&logo=greasyfork" title="Forks">
   </a>
+  <a href="https://nick2bad4u.github.io/github-drama/" title="GitHub Pages Status">
+    <img alt="Badge: GitHub Pages Status (dynamic, flat-square style)" src="https://img.shields.io/website?url=https%3A%2F%2Fnick2bad4u.github.io%2Fgithub-drama%2F&up_message=Online&down_message=Offline&style=flat-square&logo=github&label=Github%20Pages&cacheSeconds=6000&link=https%3A%2F%2Fnick2bad4u.github.io%2Fgithub-drama%2F" title="GitHub Pages Status">
 </p>
 
 ---
