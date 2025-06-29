@@ -88,11 +88,16 @@ This is a curated collection of "dramatic" GitHub interactions.
 
 ### Legcord/Legcord
 
-[Legcord/Legcord/issues/745] (https://github.com/Legcord/Legcord/issues/745)
+- [Legcord/Legcord/issues/745](https://github.com/Legcord/Legcord/issues/745)
+  - The project received a cease and desist from ARM LLC, requiring the removal of "Arm" from "ArmCord." The team announced rebranding efforts to "Legcord" and detailed ongoing and completed tasks for renaming packages and updating distribution channels. The official notice is available [here](https://public.aspy.dev/000-DMCA-INFO/RECORDS/2024.10.10-Cease_and_Desist-ArmCord-redacted-1-1-1.pdf). Issue is closed as completed.
 
-### ventoy/PXE
+### ventoy/Ventoy + ventoy/PXE
 
-[ventoy/PXE/issues/106](https://github.com/ventoy/PXE/issues/106)
+- [ventoy/Ventoy/issues/2795](https://github.com/ventoy/Ventoy/issues/2795)
+  - Issue raised concerns about the presence of prebuilt binary blobs ("BLOBs") in the source tree, especially after the XZ-Utils incident. The reporter urged a shift to reproducible builds and build-from-source practices. The issue was closed as a duplicate, with extensive discussion (170 comments).
+
+- [ventoy/PXE/issues/106](https://github.com/ventoy/PXE/issues/106)
+  - Security concerns were raised regarding iVentoy, specifically that it installs unsafe Windows kernel drivers and a self-signed root certificate, potentially exposing users to attacks. The report includes detailed technical analysis and links to VirusTotal results for the identified files. Issue is closed as completed.
 
 ### actix/actix-web
 
