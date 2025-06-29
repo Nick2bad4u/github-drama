@@ -86,6 +86,14 @@ For contributing guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md "Project CONT
 
 This is a curated collection of "dramatic" GitHub interactions.
 
+### Legcord/Legcord
+
+[Legcord/Legcord/issues/745] (https://github.com/Legcord/Legcord/issues/745)
+
+### ventoy/PXE
+
+[ventoy/PXE/issues/106](https://github.com/ventoy/PXE/issues/106)
+
 ### actix/actix-web
 
 - [actix/actix-web/issues/1289](https://github.com/actix/actix-web/issues/1289)
